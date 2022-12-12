@@ -1,16 +1,40 @@
 <!DOCTYPE html>
 
 <html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+  <body>
+    <form>
+      <label for="name" id="name">Name</label>
+      <input type="text" required id="name" />
+      <label for="email" id="email">Email</label>
+      <input type="email" name="email" id="emial" required />
+      <label for="gender" id="gender">Gender</label>
+      <label for="male" id="male">Male</label>
+      <input type="radio" name="gender" id="male" />
+      <label for="female" id="female">Female</label>
+      <input type="radio" name="gender" id="female" />
+      <label for="laptop" id="laptop">Laptop Brands</label>
+      <input type="checkbox" name="apple" id="apple" />
+      <label for="apple">Apple</label>
+      <input type="checkbox" name="asus" id="asus" />
+      <label for="apple">Asus</label>
+      <input type="checkbox" name="hp" id="hp" />
+      <label for="apple">Hp</label>
+      <label for="age" id="age">Age</label>
+      <input type="number" name="age" id="age" required />
+      <label for="dob" id="dob">DOB</label>
+      <input type="date" name="dob" id="dob" required />
+      <label for="password" id="password">Password</label>
+      <input type="password" name="password" id="password>
 
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
-</body>
-
+      <label for="portfolio">Enter your portfolio link</label>
+      <input type="text" name="link" id="portfolio" />
+      <input type="submit" value="Submit" />
+    </form>
+    <!-- the entire body must be written by student -->
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
 </html>
